@@ -20,41 +20,60 @@ Liberation Mono,
 Menlo,
 monospace;
 
+// solarized colors:
+// https://github.com/altercation/ethanschoonover.com-OLD/blob/master/resources/css/style.css
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
 // Colors
-$bg-color: #fafafa !default;
-$fg-color: #212121 !default;
-$alt-bg-color: #e0e0e0 !default;
-$alt-fg-color: #000 !default;
-$darker-alt-bg-color: #ccc !default;
-$link-color: #1565c0 !default;
+$bg-color: $base3 !default;
+$fg-color: $base00 !default;
+$alt-bg-color: $base2 !default;
+$alt-fg-color: $base01 !default;
+$darker-alt-bg-color: $base1 !default;
+$link-color: $base02 !default;
 
 // Dark colors
-$bg-color-dark: #212121 !default;
-$fg-color-dark: #dadada !default;
-$alt-bg-color-dark: #424242 !default;
-$alt-fg-color-dark: #dadada !default;
-$lighter-alt-bg-color-dark: #4f4f4f !default;
-$link-color-dark: #42a5f5 !default;
+$bg-color-dark: $base03 !default;
+$fg-color-dark: $base0 !default;
+$alt-bg-color-dark: $base02 !default;
+$alt-fg-color-dark: $base1 !default;
+$lighter-alt-bg-color-dark: $base01 !default;
+$link-color-dark: $base2 !default;
 
 // Notice colors
-$fg-color-notice-note-icon: #5e35b1 !default;
-$bg-color-notice-note-title: #673ab71a !default;
-$bg-color-notice-note-content: #7e57c21a !default;
-$fg-color-notice-tip-icon: #00897b !default;
-$bg-color-notice-tip-title: #0096881a !default;
-$bg-color-notice-tip-content: #26a69a1a !default;
-$fg-color-notice-example-icon: #6d4c41 !default;
-$bg-color-notice-example-title: #7955481a !default;
-$bg-color-notice-example-content: #8d6e631a !default;
-$fg-color-notice-question-icon: #7cb342 !default;
-$bg-color-notice-question-title: #8bc34a1a !default;
-$bg-color-notice-question-content: #9ccc651a !default;
-$fg-color-notice-info-icon: #1e88e5 !default;
-$bg-color-notice-info-title: #2196f31a !default;
-$bg-color-notice-info-content: #42a5f51a !default;
-$fg-color-notice-warning-icon: #ffb300 !default;
-$bg-color-notice-warning-title: #ffc1071a !default;
-$bg-color-notice-warning-content: #ffca281a !default;
-$fg-color-notice-error-icon: #e53935 !default;
-$bg-color-notice-error-title: #f443361a !default;
-$bg-color-notice-error-content: #ef53501a !default;
+$fg-color-notice-note-icon: $blue !default;
+$bg-color-notice-note-title: $cyan !default;
+$bg-color-notice-note-content: $green !default;
+$fg-color-notice-tip-icon: $blue !default;
+$bg-color-notice-tip-title: $cyan !default;
+$bg-color-notice-tip-content: $green !default;
+$fg-color-notice-example-icon: $blue !default;
+$bg-color-notice-example-title: $cyan !default;
+$bg-color-notice-example-content: $green !default;
+$fg-color-notice-question-icon: $blue !default;
+$bg-color-notice-question-title: $cyan !default;
+$bg-color-notice-question-content: $green !default;
+$fg-color-notice-info-icon: $blue !default;
+$bg-color-notice-info-title: $cyan !default;
+$bg-color-notice-info-content: $green !default;
+$fg-color-notice-warning-icon: $blue !default;
+$bg-color-notice-warning-title: $cyan !default;
+$bg-color-notice-warning-content: $green !default;
+$fg-color-notice-error-icon: $blue !default;
+$bg-color-notice-error-title: $cyan !default;
+$bg-color-notice-error-content: $green !default;
