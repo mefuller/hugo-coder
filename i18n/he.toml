@@ -1,18 +1,18 @@
 [categories]
 one = "קטגוריה"
-other = "categories"
+other = "קטגוריות"
 
 [tags]
 one = "תגית"
-other = "tags"
+other = "תגיות"
 
 [series]
 one = "סדרה"
-other = "series"
+other = "סדרות"
 
 [authors]
 one = "סופר"
-other = "authors"
+other = "סופרים"
 
 [posts]
 other = "פוסטים"
@@ -40,25 +40,25 @@ other = "מופעל על ידי"
 other = "רואה עוד ב"
 
 [note]
-other = "note"
+other = "הערה"
 
 [tip]
-other = "tip"
+other = "עצה"
 
 [example]
-other = "example"
+other = "משל"
 
 [question]
-other = "question"
+other = "שאלה"
 
 [info]
-other = "info"
+other = "מידע"
 
 [warning]
-other = "warning"
+other = "אזהרה"
 
 [error]
-other = "error"
+other = "שגיאה"
 
 [link_to_heading]
 other = "Link to heading"
